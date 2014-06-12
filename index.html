@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerónimo Ortiz">
+    <title>FontSizer Jquery Plugin</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="fontsizer.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('#controls a').fontsizer({
+          min: '18',
+          max: '36', 
+          elements: 'p, .resize'
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+  	
+    <header>
+    	<h1>FontSizer JQuery Plugin</h1>
+    </header>
+
+    <div id="controls">
+      <span id="max"> A+ </span> | <span id="min"> A- </a>
+    </div>
+
+    <main>
+      
+      	<p>Example text</p>
+        <div class="resize"> resize this text </div>
+      
+    </main>
+
+    <footer>
+      	FontSizer by <a href="http://playwebs.net">www.Playwebs.net</a>
+    </footer>
+
+  </body>
+</html>

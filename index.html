@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gerónimo Ortiz">
     <title>FontSizer Jquery Plugin</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
@@ -11,7 +10,7 @@
 
     <script type="text/javascript">
       $(function() {
-        $('#controls a').fontsizer({
+        $('#controls span').fontsizer({
           min: '18',
           max: '36', 
           elements: 'p, .resize'
@@ -27,18 +26,21 @@
     </header>
 
     <div id="controls">
-      <span id="max"> A+ </span> | <span id="min"> A- </a>
+      <a href="javascript:void(0);" id="sizermax"> A+ </a> | <a href="javascript:void(0);" id="sizermin"> A- </a>
     </div>
 
     <main>
       
-      	<p>Example text</p>
-        <div class="resize"> resize this text </div>
+        <div class="resize"> 
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+          Aenean commodo ligula eget dolor. Aenean massa. <br>
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </div>
       
     </main>
 
     <footer>
-      	FontSizer by <a href="http://playwebs.net">www.Playwebs.net</a>
+      	FontSizer by <a href="http://playwebs.net">Playwebs.net</a>
     </footer>
 
   </body>

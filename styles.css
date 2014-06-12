@@ -1,1 +1,30 @@
 /* Styles */
+body {
+	font-family: Arial;
+	color: #444;
+}
+
+#controls {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+#controls a {
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+	width: 25px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 5px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #f8f8f8;
+}
+footer {
+	margin-top: 30px;
+	color: #999;
+	font-size: 12px;
+}
